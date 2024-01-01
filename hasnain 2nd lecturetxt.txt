@@ -1,0 +1,33 @@
+int numb = 85;
+  int remainder = 20;
+  
+  if(numb>=80){
+    print("A+");
+  }
+  else if(numb>=70){
+    print('B');
+  }
+  else if(numb>=60){
+    print('C');
+  }
+  else{
+    print('The grade is F');
+  }
+    
+  
+  switch (remainder){
+    case 10:
+      print('even');
+      break;
+      
+    case 20:
+      print('odd');
+      break;
+      
+    default:
+      print('nothing');
+  
+      
+      
+  }
+  ( 2nd class lecture)
